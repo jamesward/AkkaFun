@@ -2,9 +2,9 @@ apply plugin:"application"
 mainClassName = "com.jamesward.akkafun.SimpleFutures"
 
 repositories {
-    mavenCentral()
+  mavenRepo urls: "http://repo.typesafe.com/typesafe/releases";
 }
 
 dependencies {
-  compile "se.scalablesolutions.akka:akka-actor:1.2-RC6"
+  compile "se.scalablesolutions.akka:akka-actor:1.2"
 }
